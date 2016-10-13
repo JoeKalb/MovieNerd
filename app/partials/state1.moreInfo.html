@@ -1,0 +1,25 @@
+<!-- State1 more info -->
+<div class="col-sm-12" ng-hide="vm2.movieTitle === ''">
+	<legend></legend>
+	<div class='panel panel-primary'>
+		<!-- When the 'More Detials' button is clicked the new data gathered will appear here -->
+		<div class='panel panel-heading'>{{vm2.movieTitle}}</div>
+		<div class='panel panel-body'>
+			<img ng-src="{{vm2.moreDetail.Poster}}" alt="" class="center-block">
+			<legend></legend>
+			<div class="col-sm-3">
+				<p>Released: {{vm2.moreDetail.Released}}</p>
+				<p>Director(s): {{vm2.moreDetail.Director}}</p>
+				<p>Writen by: {{vm2.moreDetail.Writer}}</p>
+			</div>
+			<div class="col-sm-3">
+				<p>Actors: {{vm2.moreDetail.Actors}}</p>
+				<p>Awards: {{vm2.moreDetail.Awards}}</p>
+			</div>
+			<div class="col-sm-6">
+				<label for="">Plot</label>
+				<p class="well">{{vm2.moreDetail.Plot}}</p>
+			</div>
+		</div>
+	</div>
+</div ui-view>

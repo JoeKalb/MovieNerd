@@ -1,0 +1,26 @@
+<!-- state 1 -->
+<div class="col-sm-12">
+	<!-- Setting up the first input to search for the list of movies -->
+	<div class="input-group">
+			<input type="text" class="form-control" ng-model="vm.input">
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-info" ng-click="vm.showMovies(vm.input)" ui-sref="state1">GO!</button>
+			</span>
+	</div>
+</div>
+<legend></legend>
+<!-- The ui-view will show where the dynamic changes will be by swapping between a list of movies and more info -->
+<p ui-view></p>
+<div class="col-sm-4" ng-repeat="info in vm.all">
+	<div class="panel panel-primary">
+		<!-- This is where the movie search data will appear -->
+		<div class="panel-heading">{{info.Title}}</div>
+		<div class="panel-body">
+			<img ng-src="{{info.Poster}}" alt="" class="center-block">
+			<p>Year: {{info.Year}}</p>
+			<!-- The button will get more info about the movie that was selected -->
+			<button ui-sref="state1.moreInfo({imdb: info.imdbID})" type="button" class="btn btn-info">More Details</button>
+		</div>
+	</div>
+</div>
+<div></div>
