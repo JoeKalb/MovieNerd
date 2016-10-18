@@ -16,7 +16,7 @@
 		<!-- This is where the movie search data will appear -->
 		<div class="panel-heading">{{info.Title}}</div>
 		<div class="panel-body">
-			<img ng-src="{{info.Poster}}" alt="" class="center-block">
+			<img ng-src="{{info.Poster}}" alt="" class="center-block" id="search-poster">
 			<p>Year: {{info.Year}}</p>
 			<!-- The button will get more info about the movie that was selected -->
 			<button ui-sref="state1.moreInfo({imdb: info.imdbID})" type="button" class="btn btn-info">More Details</button>
