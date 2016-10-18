@@ -3,3 +3,12 @@ img {
 	width: 90%;
 }
 
+.panel-heading {
+	font: 8px;
+	height: 65px;
+}
+
+.center-block {
+	width: 185px;
+	height: 250px;
+}
