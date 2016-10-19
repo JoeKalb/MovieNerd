@@ -1,3 +1,5 @@
+// connect the "More Details" button with the service to grab more info
+
 (function() {
     'use strict';
 

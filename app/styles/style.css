@@ -4,11 +4,11 @@ img {
 }
 
 .panel-heading {
-	font: 8px;
+	font: 12px;
 	height: 65px;
 }
 
 #search-poster {
-	width: 185px;
-	height: 250px;
+	width: 200px;
+	height: 300px;
 }

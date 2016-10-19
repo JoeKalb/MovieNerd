@@ -11,6 +11,7 @@
 <legend></legend>
 <!-- The ui-view will show where the dynamic changes will be by swapping between a list of movies and more info -->
 <p ui-view></p>
+<!-- Grab all the search data and use ng-repeat to populate the panels -->
 <div class="col-sm-4" ng-repeat="info in vm.all">
 	<div class="panel panel-primary">
 		<!-- This is where the movie search data will appear -->

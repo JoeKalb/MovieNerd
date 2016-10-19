@@ -13,13 +13,12 @@
     			controller: "movieController",
     			controllerAs: "vm"
             })
-            // making the second state available for more movie details as well as the button
+            // making the second state available for more movie details through a button
     		.state('state1.moreInfo', {
     			url: "/moreInfo/:imdb",
     			templateUrl: "app/partials/state1.moreInfo.html", 
                 controller: "movieControllerDetail",
                 controllerAs: "vm2"
-
     		})
     });
 })();

@@ -1,3 +1,6 @@
+/* Making a service that will either grab search results
+or movie details from the API */
+
 (function() {
     'use strict';
     angular

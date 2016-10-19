@@ -1,4 +1,4 @@
-// Make a controller to get the info for the movie search
+// Make a controller to pass a search for the service and grab returned movies
 
 (function() {
     'use strict';
