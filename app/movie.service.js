@@ -61,3 +61,6 @@ or movie details from the API */
         }
     }
 })();
+//Comments by BL: Nice and clean explaining functions
+//SA code is nice and concise 
+//reviewed by JKL

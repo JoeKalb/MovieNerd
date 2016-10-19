@@ -28,3 +28,6 @@
         }
     }
 })();
+//Comments by BL: Clean code with comments explaning functions
+//SA code is nice and concise 
+//reviewed by JKL

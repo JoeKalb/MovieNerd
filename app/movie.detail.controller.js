@@ -11,7 +11,7 @@
     
     /* @ngInject */
     function movieControllerDetail(getInfo, toastr, $stateParams) {
-        params: {imdb: $stateParams.imdb};
+        //params: {imdb: $stateParams.imdb}; i guess you don't need this
         var vm2 = this;
         vm2.title = 'movieControllerDetail';
         vm2.moreDetail;
@@ -38,3 +38,6 @@
 
     }
 })();
+//Comments by BL: Clean code with comment explaining functions
+//SA code is nice and concise 
+//JKL: good use of ng-hide
